@@ -17,8 +17,11 @@ sudo apt install nodejs
 sudo apt install npm
 
 Go insdie your project folder (Reactappdeployment) and run the following commands
+
 npm install
+
 npm run build
+
 This will create a build folder and now you can place all the code to s3 to be served with cloudfront
 
 Inside Nodejsdeployment folder there is config.tf file. Just run the file and observe infrastucture provision.
