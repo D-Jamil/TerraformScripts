@@ -9,8 +9,11 @@ Make sure you have terraform installed on your machine
 Make sure you have aws cli configured for your AWS account
 
 You have to first build you react app locally on your machine (Ubuntu) before sending it to S3 bucket for this you have to install Nodejs and npm
+
 sudo apt update
+
 sudo apt install nodejs
+
 sudo apt install npm
 
 Go insdie your project folder (Reactappdeployment) and run the following commands
